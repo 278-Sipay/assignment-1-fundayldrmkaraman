@@ -1,5 +1,0 @@
-Hazırladığım bu ödevde öncelikle NuGet Package aracılığıyla FluentValidation eklentilerini ekledim.
-Daha sonra Startup.cs dosyasında ConfigureServices'e FluentValidation ekledim.
-PersonValidator sınıfını FluentValidation'ın AbstractValidator sınıfından türeterek her bir özelliğe doğrulama kuralları tanımladım.
-PersonController sınıfında, CreatePerson adında bir POST methodu tanımladım. Bu method ile, gelen Person nesnesini doğrulaması ve sonucuna göre uygun bir yanıt döndürmesini sağladım.
-Bu şekilde, FluentValidation kullanarak Person sınıfının doğrulamasını gerçekleştirdim.
